@@ -12,12 +12,13 @@ import "fmt"
 
 func main() {
 	// without newline
-	fmt.Println("hihi")
+	fmt.Println("hi\"hi\"")
 
 	// with newline:
 	//   \n = escape sequence
 	//   \  = escape character
 	fmt.Println("hi\nhi")
+	// fmt.Println("hi\n\"hi\"") my experiment
 
 	// escape characters:
 	//   \\ = \
